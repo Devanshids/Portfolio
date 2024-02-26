@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(214, 235, 248);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: slateblue;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 7px 16px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(136, 203, 225);
+
+
+}
+
+.left {
+    font-size: 1.4rem;
+    margin: 20px;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 46px 0;
+}
+
+.firstsection>div {
+
+    width: 40%;
+}
+
+.leftsection {
+    color: mediumslateblue;
+    font-size: 2.8rem;
+    margin: 30px 0;
+
+}
+
+.leftsection .buttons {
+    padding: 20px 0px;
+}
+
+.leftsection .btn {
+
+    padding: 12px;
+    background: rgb(152, 139, 222);
+    color: white;
+    border: 1px solid ;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.rightsection img {
+    width: 110%;
+    margin: 30px px;
+    align-items: center;
+}
+
+.blue {
+    color: blue;
+}
+
+#element {
+    color: orange;
+}
+
+main hr {
+    border: 0;
+    background: blueviolet;
+    height: 1.8px;
+    margin: 40px px;
+
+}
+
+.secondsection {
+    max-width: 200vh;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 30px;
+    color: rgb(151, 140, 225);
+    display: flex;
+    align-items: left;
+    display: flex;
+    justify-content: center;
+}
+
+.greentext {
+    color: #FF7002;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondsection .box {
+    background: black;
+    width: 150vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    background: black;
+    width: 2px;
+    height: 50px;
+    margin: 0px 74px;
+}
+
+.topimg {
+    width: 23px;
+    position: relative;
+    top: -25px;
+    left: -9px;
+}
+
+.verticaltitle {
+    position: relative;
+    color: blue;
+    margin: 19px 0px;
+    left: -27px;
+
+
+}
+
+.vertical .verticaldesc {
+    color: blueviolet;
+    left: -27px;
+    margin: -20px -28px;
+}
+
+footer {
+    background-color: slateblue;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+
+}
+
+.footer .ffirst {
+    margin: 0px -100px;
+}
+
+.footer>div {
+    width: 123px;
+}
+
+footer .footermail {
+    text-align: center;
+    padding: 12px 0px ;
+}
+
+@media  screen and(max-width: 1000px) {
+ body { background-color: red;
+ }
+ .firstsection{
+    flex-direction: column-reverse;
+ }
+}
